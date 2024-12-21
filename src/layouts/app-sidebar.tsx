@@ -111,7 +111,7 @@ type MenuItem = {
 const colorPicker: MenuItem[] = [
   {
     title: "Color Picker from Image",
-    url: "/color-picker-from-image",
+    url: "/SuperEasy/color-picker-from-image",
     icon: Palette,
   },
 ];
@@ -132,7 +132,7 @@ const videoAudioDownload: MenuItem[] = [
 const aviConverter: MenuItem[] = [
   {
     title: "File Converter",
-    url: "/file-converter",
+    url: "/SuperEasy/file-converter",
     icon: HardDriveDownload,
   },
 ];
