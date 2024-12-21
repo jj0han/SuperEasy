@@ -1,0 +1,15 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    // Vite splits TypeScript configuration into three files, two of which need to be edited.
+    // Add the baseUrl and paths properties to the compilerOptions section of the tsconfig.json and tsconfig.app.json files
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
